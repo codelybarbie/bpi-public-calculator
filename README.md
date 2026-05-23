@@ -51,6 +51,30 @@ This repository does not disclose, license, or reproduce the protected interpret
 ### BibTeX
 
 ```bibtex
+@misc{kang2026bpi_visible_body_framework,
+  author = {Kang, Sarang},
+  title = {Body Mass Is Not Body Shape: An Exploratory Framework for Visible-Body Proportion Interpretation},
+  year = {2026},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.20336763}
+}
+
+@misc{kang2026bpi_conceptual_equation_layer,
+  author = {Kang, Sarang},
+  title = {Exploring Visible-Body Proportion as a Potential Observational Dimension: BPI Conceptual Equation Layer v0.2},
+  year = {2026},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.20341176}
+}
+
+@misc{kang2026bpi_relational_equation_layer,
+  author = {Kang, Sarang},
+  title = {Exploring Relational Concepts for Visible-Body Proportion Observation: BPI Relational Equation Layer v0.3},
+  year = {2026},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.20343650}
+}
+
 @misc{kang2026bg10_exploratory_coding_layer,
   author = {Kang, Sarang},
   title = {A Preliminary Descriptive Reference Scale for Balance Gap: BG-10 Exploratory Coding Layer},
