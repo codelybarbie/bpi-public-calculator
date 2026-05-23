@@ -3,10 +3,62 @@
 > **An exploratory visible-body proportion observation framework. (Silhouette Calculator)**  
 > By Sarang Kang | Silhouette Intelligence, S-Scale Founder
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-000000.svg?style=flat-square)](LICENSE)
+
 [![Version](https://img.shields.io/badge/version-1.1.0-c8f0c0.svg?style=flat-square)](package.json)
 [![Deploy: Vercel](https://img.shields.io/badge/deploy-Vercel-000000.svg?style=flat-square&logo=vercel)](https://vercel.com)
 [![Stack: Next.js](https://img.shields.io/badge/stack-Next.js_14-000000.svg?style=flat-square&logo=next.js)](https://nextjs.org)
+
+---
+
+## Citation
+
+If you use this framework, calculator, BG-10 table, terminology, or related concepts in research, software, educational materials, or applied projects, please cite the related DOI records.
+
+Kang S. Body Mass Is Not Body Shape: An Exploratory Framework for Visible-Body Proportion Interpretation. Zenodo. Published May 2026. doi:10.5281/zenodo.20336763
+
+Kang S. Exploring Visible-Body Proportion as a Potential Observational Dimension: BPI Conceptual Equation Layer v0.2. Zenodo. Published May 2026. doi:10.5281/zenodo.20341176
+
+Kang S. Exploring Relational Concepts for Visible-Body Proportion Observation: BPI Relational Equation Layer v0.3. Zenodo. Published May 2026. doi:10.5281/zenodo.20343650
+
+Kang S. A Preliminary Descriptive Reference Scale for Balance Gap: BG-10 Exploratory Coding Layer. Zenodo. Published May 2026. doi:10.5281/zenodo.20345268
+
+---
+
+## License and Use
+
+This repository is publicly available for research viewing, educational reference, and exploratory discussion.
+
+No open-source license is currently granted for commercial reuse, derivative systems, redistribution, or incorporation into commercial products without prior written permission.
+
+The public materials in this repository include only the simplified BPI/BG/BG-10 measurement and visualization layer.
+
+If you use this framework, calculator, BG-10 table, terminology, or related concepts in research, software, educational materials, content, or applied projects, please cite the related DOI records listed above.
+
+---
+
+## Patent-Pending Notice
+
+The public calculator in this repository exposes only a simplified BPI/BG/BG-10 measurement and visualization layer.
+
+The broader S-Scale interpretation infrastructure is related to a patent-pending system titled:
+
+**“Silhouette measurement and quantitative analysis system and silhouette measurement and quantitative analysis method using the same.”**
+
+This repository does not disclose, license, or reproduce the protected interpretation architecture, proprietary calibration logic, non-public grading systems, or full S-Scale platform infrastructure.
+
+---
+
+### BibTeX
+
+```bibtex
+@misc{kang2026bg10_exploratory_coding_layer,
+  author = {Kang, Sarang},
+  title = {A Preliminary Descriptive Reference Scale for Balance Gap: BG-10 Exploratory Coding Layer},
+  year = {2026},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.20345268}
+}
+```
 
 ---
 
