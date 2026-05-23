@@ -24,30 +24,6 @@ Kang S. A Preliminary Descriptive Reference Scale for Balance Gap: BG-10 Explora
 
 ---
 
-## License and Use
-
-This repository is publicly available for research viewing, educational reference, and exploratory discussion.
-
-No open-source license is currently granted for commercial reuse, derivative systems, redistribution, or incorporation into commercial products without prior written permission.
-
-The public materials in this repository include only the simplified BPI/BG/BG-10 measurement and visualization layer.
-
-If you use this framework, calculator, BG-10 table, terminology, or related concepts in research, software, educational materials, content, or applied projects, please cite the related DOI records listed above.
-
----
-
-## Patent-Pending Notice
-
-The public calculator in this repository exposes only a simplified BPI/BG/BG-10 measurement and visualization layer.
-
-The broader S-Scale interpretation infrastructure is related to a patent-pending system titled:
-
-**“Silhouette measurement and quantitative analysis system and silhouette measurement and quantitative analysis method using the same.”**
-
-This repository does not disclose, license, or reproduce the protected interpretation architecture, proprietary calibration logic, non-public grading systems, or full S-Scale platform infrastructure.
-
----
-
 ### BibTeX
 
 ```bibtex
@@ -312,11 +288,28 @@ bpi-public/
 
 ---
 
-## License
+## License and Use
 
-MIT License — see [LICENSE](LICENSE) for details.
+This repository is publicly available for research viewing, educational reference, and exploratory discussion.
 
-Protected interpretation infrastructure, S.A.A. engine architecture, and proprietary scoring systems are not licensed under MIT and are not included in this repository.
+No open-source license is currently granted for commercial reuse, derivative systems, redistribution, or incorporation into commercial products without prior written permission.
+
+The public materials in this repository include only the simplified BPI/BG/BG-10 measurement and visualization layer.
+
+If you use this framework, calculator, BG-10 table, terminology, or related concepts in research, software, educational materials, content, or applied projects, please cite the related DOI records listed above.
+
+---
+
+## Patent-Pending Notice
+
+The public calculator in this repository exposes only a simplified BPI/BG/BG-10 measurement and visualization layer.
+
+The broader S-Scale interpretation infrastructure is related to a patent-pending system titled:
+
+**“Silhouette measurement and quantitative analysis system and silhouette measurement and quantitative analysis method using the same.”**
+
+This repository does not disclose, license, or reproduce the protected interpretation architecture, proprietary calibration logic, non-public grading systems, or full S-Scale platform infrastructure.
+
 
 ---
 
