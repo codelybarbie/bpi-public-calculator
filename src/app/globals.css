@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-card: #141414;
+  --bg-input: #1a1a1a;
+  --border: rgba(255,255,255,0.14);
+  --border-table: rgba(255,255,255,0.12);
+  --border-focus: rgba(255,255,255,0.22);
+  --text-primary: #f2f2f2;
+  --text-secondary: #b8b8b8;
+  --text-muted: #9a9a9a;
+  --text-very-muted: #7f7f7f;
+  --accent: #c8f0c0;
+  --accent-dim: #4a6b44;
+  --font-display: "Syne", sans-serif;
+  --font-mono: "DM Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-mono);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle grid background */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Fade in animation */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.7s ease forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.animate-delay-1 { animation-delay: 0.1s; opacity: 0; }
+.animate-delay-2 { animation-delay: 0.2s; opacity: 0; }
+.animate-delay-3 { animation-delay: 0.35s; opacity: 0; }
+.animate-delay-4 { animation-delay: 0.5s; opacity: 0; }
+.animate-delay-5 { animation-delay: 0.65s; opacity: 0; }
+
+/* Input styling */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #3a3a3a; }
+
+/* Result card export */
+.result-export {
+  font-family: var(--font-mono);
+}
+
+/* BG-10 Coding Level color bands
+   Level 1 (smallest gap) = green  →  Level 10 (largest gap) = muted red
+   Direction: low number = tighter balance, high number = broader gap          */
+.bg-band-1  { color: #c8f0c0; }   /* Near-Perfect Balance   — green           */
+.bg-band-2  { color: #b4e4a8; }   /* High Balance           — green           */
+.bg-band-3  { color: #a8d898; }   /* Balanced               — soft green      */
+.bg-band-4  { color: #c8dc96; }   /* Balanced Tendency      — yellow-green    */
+.bg-band-5  { color: #dcd888; }   /* Balanced Obs. Range    — warm yellow     */
+.bg-band-6  { color: #e0c87a; }   /* Noticeable Gap         — amber           */
+.bg-band-7  { color: #dcac68; }   /* Strong Gap             — amber-orange    */
+.bg-band-8  { color: #d08c5c; }   /* High Gap               — orange          */
+.bg-band-9  { color: #c07050; }   /* Very High Gap          — terracotta      */
+.bg-band-10 { color: #b05848; }   /* Outlier / Review       — muted red       */
