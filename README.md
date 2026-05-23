@@ -144,12 +144,10 @@ This repository exposes **only the public measurement language layer**.
 
 | Layer | Contents |
 |-------|----------|
-| Interpretation engine | S.A.A. Architecture internals |
-| Adaptive weighting | Proportion calibration logic |
-| Routing & tolerance logic | Contextual routing infrastructure |
-| Calibration thresholds | Internal precision threshold values |
-| Mode branching | Conditional interpretation logic |
-| Final S-Scale grade | Protected grading architecture |
+| Protected architecture | Patent-pending interpretation architecture |
+| S-Scale / S.A.A. layer | Protected non-public interpretation logic |
+| Internal systems | Internal calibration and review systems |
+| Platform infrastructure | Non-public grading and platform infrastructure |
 
 > Measurement language is public. Interpretation infrastructure is protected.
 
